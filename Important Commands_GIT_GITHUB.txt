@@ -1,0 +1,96 @@
+Perfect 💯 You’ve created a nice structured set of Git practice questions.
+Here’s the **command answer sheet** for each of your questions:
+
+---
+
+## 🔹 Basic Git Setup & Initialization
+
+**Q:** Which command is used to set your email globally in Git?
+👉 `git config --global user.email "your_email@example.com"`
+
+**Q:** What is the purpose of `git init`?
+👉 Initializes a new Git repository in the current directory.
+Command: `git init`
+
+**Q:** How do you add all changes in your working directory to the staging area?
+👉 `git add .`
+
+**Q:** Write the command to add only `index.html` file to staging.
+👉 `git add index.html`
+
+---
+
+## 🔹 Commit
+
+**Q:** What does `git commit -m "message"` do?
+👉 Records staged changes to the repository with a message.
+Command: `git commit -m "your commit message"`
+
+**Q:** How do you check commit history in a detailed view?
+👉 `git log`
+
+**Q:** Which command shows commit history in a short/condensed form?
+👉 `git log --oneline`
+
+---
+
+## 🔹 Remote Repository
+
+**Q:** Write the command to connect your local repository with a GitHub repository (as origin).
+👉 `git remote add origin https://github.com/username/repo.git`
+
+**Q:** How do you check if a remote origin is added or not?
+👉 `git remote -v`
+
+**Q:** Which command removes a remote repository named origin?
+👉 `git remote remove origin`
+
+---
+
+## 🔹 Branching
+
+**Q:** What command creates a new branch called homepage?
+👉 `git branch homepage`
+
+**Q:** How do you switch to a branch named aboutpage?
+👉 `git checkout aboutpage`
+(or modern way: `git switch aboutpage`)
+
+**Q:** Write the command to merge the branch aboutpage with the current branch.
+👉 `git merge aboutpage`
+
+**Q:** How do you list all the branches in your repository?
+👉 `git branch`
+
+---
+
+## 🔹 Pushing & Pulling
+
+**Q:** Write the command to push code to the master branch of origin.
+👉 `git push origin master`
+
+**Q:** Which command pushes code to the currently checked-out branch on origin?
+👉 `git push origin HEAD`
+
+**Q:** How do you pull the latest changes from the origin repository?
+👉 `git pull origin branch_name`
+
+**Q:** Difference between git fetch and git pull?
+👉
+
+* `git fetch` → downloads commits/changes from remote but does **not** merge them.
+* `git pull` → fetches changes **and merges** them into the current branch.
+
+---
+
+## 🔹 Cloning & Remote
+
+**Q:** Write the command to clone a repository from GitHub.
+👉 `git clone https://github.com/username/repo.git`
+
+**Q:** Which command shows all remote repositories linked with your project?
+👉 `git remote -v`
+
+---
+
+Do you want me to also **convert this into a practice worksheet style** (like fill in the blanks / match the commands) so you can revise faster?
