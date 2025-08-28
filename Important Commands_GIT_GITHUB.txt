@@ -92,5 +92,3 @@ Command: `git commit -m "your commit message"`
 👉 `git remote -v`
 
 ---
-
-Do you want me to also **convert this into a practice worksheet style** (like fill in the blanks / match the commands) so you can revise faster?
